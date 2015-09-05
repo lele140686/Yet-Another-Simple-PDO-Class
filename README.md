@@ -1,5 +1,6 @@
 # Yet Another Simple PDO Class
-Database persistence made it very simple task
+Database persistence made it very simple task.
+Feel free to clone, fork and commit if you have the time. Have fun with it. Maybe some day you can buy me a beer ;)
 
 #### Require the class in your project
 ```php

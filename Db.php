@@ -3,9 +3,9 @@
 /**
  * DB Class - Yet Another Simple PDO Class
  *
- * @author        Author: Leroy Loredo.
- * @git        https://github.com/
- * @version     1.0
+ * @author     Author: Leroy Loredo.
+ * @git        https://github.com/lele140686/Yet-Another-Simple-PDO-Class
+ * @version    1.0
  */
 class Db
 {
