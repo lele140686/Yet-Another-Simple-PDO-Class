@@ -13,24 +13,24 @@ require("Db.class.php");
 $db = new Db();
 ```
 #### Select all from table
-```
+```php
 <?php
 $db->setTable('example_table');
 return $db->findAll();
 ```
 #### Select all from table with search parameters
-```
+```php
 <?php
 $db->setTable('example_table');
 return $db->findAll(array('column1' => 'column1 value', 'column2' => 'column2 value'));
 ```
 #### Select object
-```
+```php
 $db->setTable('example_table');
 return $db->findOne(array('column1' => 'column1 value'));
 ```
 #### Insert into database
-```
+```php
 <?php
 $db->setTable('example_table');
 $db->insert(
@@ -42,7 +42,7 @@ $db->insert(
     );
 ```
 #### Update
-```
+```php
 <?php
 $db->setTable('example_table');
 $db->update(
@@ -55,12 +55,12 @@ $db->update(
     );
 ```
 #### Delete
-```
+```php
 $db->setTable('example_table');
 $db->delete(array('column1' => 'column1 value'));
 ```
 #### Custom Query
-```
+```php
 $result = $db->->getInstance()->prepare('Custom Query like JOIN WHERE column = ?');
 $result->execute(array('value'));
 return $result->fetchAll(PDO::FETCH_OBJ);
